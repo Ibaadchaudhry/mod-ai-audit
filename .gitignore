@@ -2,3 +2,30 @@
 *.pt
 *.bin
 saved_model/
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+
+# Local model outputs/checkpoints
+checkpoints/
+outputs/
+logs/
+
+# Large archives/artifacts
+*.zip
